@@ -34,7 +34,7 @@ def findHull(P,Pt,P1,P2): #Cari Convex Hull
         return [[P1,P2]]
     elif len(Pt) == 1: #BASIS : jika hanya ada satu titik (Pt), kembalikan pasangan P1-Pt dan Pt-P2
         return [[P1,Pt[0]],[Pt[0],P2]]
-    else:
+    else: #REKURENS : cari convex hull pada bagian tertentu
         C = []
         Pn = findFar(P,Pt,P1,P2) #Cari titik terjauh (Pn) dari garis P1-P2
         kiri1,kanan1 = bagiTitik(P,P1,Pn,Pt) #bagi sekumpulan titik berdasarkan garis P1-Pn
