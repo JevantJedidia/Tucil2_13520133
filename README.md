@@ -39,7 +39,7 @@ Contoh penggunaan fungsi: <br />
 hull = ConvexHull(array)
 ```
 
-Bila dilakukan perintah print(array), maka hasil yang didapat adalah:<br />
+Bila dilakukan perintah print(hull), maka hasil yang didapat adalah:<br />
 ```python
 [[2, 0], [0, 1], [1, 3], [3, 5], [5, 2]]
 ```
