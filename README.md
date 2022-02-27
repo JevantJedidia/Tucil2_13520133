@@ -13,7 +13,10 @@ Program ini adalah tugas kecil mata kuliah IF2211. Program ini merupakan pustaka
 -Pustaka NumPy sudah ter-*install* <br />
 
 Apabila ingin melakukan *plot*-ing terhadap titik yang dimasukan dan *convex hull*: <br />
--Pustaka Matplotlib sudah ter-*install*
+-Pustaka Matplotlib sudah ter-*install* <br />
+
+Apabila ingin menjalankan program main.py: <br />
+-Pustaka scikit-learn sudah ter-*install*
 
 ## Cara Menggunakan Program
 
