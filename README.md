@@ -10,13 +10,31 @@ Program ini adalah tugas kecil mata kuliah IF2211. Program ini merupakan pustaka
 ## Requirement Program dan Instalasi *module/package*
 
 -Python atau Python 3 sudah ter-*install* <br />
+Dilakukan di cmd dengan command:
+```
+#Untuk Python
+python -V
+
+#Untuk Python3
+python3 -V
+```
 -Pustaka NumPy sudah ter-*install* <br />
 
 Apabila ingin melakukan *plot*-ing terhadap titik yang dimasukan dan *convex hull*: <br />
 -Pustaka Matplotlib sudah ter-*install* <br />
 
 Apabila ingin menjalankan program main.py: <br />
--Pustaka scikit-learn sudah ter-*install*
+-Pustaka scikit-learn sudah ter-*install* <br />
+
+Untuk memeriksa apakah sudah ada pustaka, pada cmd gunakan command:
+```bash
+pip list
+```
+Periksa apakah pustaka yang ingin digunakan sudah ada
+```bash
+#Contoh untuk numpy
+numpy               1.21.3
+```
 
 ## Cara Menggunakan Program
 
