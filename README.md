@@ -36,6 +36,18 @@ Periksa apakah pustaka yang ingin digunakan sudah ada
 numpy               1.21.3
 ```
 
+Instalasi pustaka dapat dilakukan di cmd dengan command:
+```bash
+#Numpy
+pip install numpy
+
+#Matplotlib
+pip install matplotlib
+
+#Scikit-learn
+pip install -U scikit-learn
+```
+
 ## Cara Menggunakan Program
 
 Untuk menggunakan pustaka *MyConvexHull*, pastikan pustaka tersebut sudah diunduh dan berada pada folder yang sama dengan kode program yang akan menggunakan pustaka tersebut.
